@@ -46,16 +46,19 @@ In today's competitive job market, having a well-organized and visually appealin
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
-    cd Auro_Porfolio_Project-main/backend
+    git clone [<repository-url>](https://github.com/Shorya-Dixit/Portfolio_Builder.git)
+    ```
+2. Navigate to the backend directory:
+    ```sh
+    cd backend
     ```
 
-2. Install the dependencies:
+3. Install the dependencies:
     ```sh
     npm install
     ```
 
-3. Update the existing `.env` file in the [`backend/config`](backend/config ) directory with your MongoDB URI and port:
+4. Update the existing `.env` file in the [`backend/config`](backend/config ) directory with your MongoDB URI and port:
     ```env
     MONGO_URI=<your-mongodb-uri>
     PORT=5001
@@ -70,7 +73,7 @@ In today's competitive job market, having a well-organized and visually appealin
 
 1. Navigate to the frontend directory:
     ```sh
-    cd ../frontend
+    cd frontend
     ```
 
 2. Install the dependencies:
