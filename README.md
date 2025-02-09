@@ -46,7 +46,7 @@ In today's competitive job market, having a well-organized and visually appealin
 
 1. Clone the repository:
     ```sh
-    git clone [<repository-url>](https://github.com/Shorya-Dixit/Portfolio_Builder.git)
+    git clone https://github.com/Shorya-Dixit/Portfolio_Builder.git
     ```
 2. Navigate to the backend directory:
     ```sh
