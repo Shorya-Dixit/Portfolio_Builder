@@ -5,56 +5,86 @@ Instruction to Run the web application -->
 
 # Portfolio Builder
 
-Digital Portfolio Builder is a platform designed for developers to create, customize, and showcase their professional digital portfolios. This platform makes it easy to build and present your work, skills, and experience effectively.
+Portfolio Builder is a web application that allows users to create, manage, and showcase their digital portfolios. This project is designed to help individuals, especially professionals and students, to present their skills, experiences, and projects in an organized and visually appealing manner.
 
----
+## Why Portfolio Builder?
 
-## DEMO 
-![alt text](image.png)
+In today's competitive job market, having a well-organized and visually appealing portfolio can make a significant difference. Portfolio Builder provides a platform where users can easily create and customize their portfolios, highlighting their key skills, experiences, and projects. This tool is especially useful for:
 
+- Job seekers who want to showcase their skills and experiences to potential employers.
+- Students who want to present their academic projects and achievements.
+- Freelancers who want to display their work and attract new clients.
 
 ## Features
 
-- Create, edit, and delete digital portfolios.
-- Showcase projects with descriptions, images, and links.
-- Responsive design for seamless use across devices.
-- Backend with secure API endpoints for data management.
-- Frontend with an intuitive and dynamic user interface.
-
----
+- **Portfolio Management**: Create, edit, and delete digital portfolios with ease.
+- **Project Showcase**: Display projects with detailed descriptions, images, and links.
+- **Responsive Design**: Enjoy a seamless experience across all devices.
+- **Secure Backend**: Manage data with secure API endpoints.
+- **Dynamic Frontend**: Interact with an intuitive and dynamic user interface.
+- **More Features**: Additional features will be added to enhance the user experience.
 
 ## Technologies Used
 
-- **Frontend**: React, React Router, CSS
+- **Frontend**: React, React Router, Axios
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB 
-- **Others**: 
-  - npm for package management
-  - Git for version control
+- **Database**: MongoDB
+- **Styling**: CSS
 
----
+## Home Page Preview
 
-## Getting Started
+![Portfolio Builder Demo](image.png)
+
+## How to Run the Project
 
 ### Prerequisites
 
-Make sure you have the following installed on your system:
-- Node.js and npm
-- Git (optional, for version control)
+- Node.js and npm installed on your machine.
+- MongoDB instance (local or cloud).
 
----
+### Backend Setup
 
-### Setup Instructions
+1. Clone the repository:
+    ```sh
+    git clone <repository-url>
+    cd Auro_Porfolio_Project-main/backend
+    ```
 
-#### Backend Setup
+2. Install the dependencies:
+    ```sh
+    npm install
+    ```
 
-   cd backend
-   npm run start
+3. Update the existing `.env` file in the [`backend/config`](backend/config ) directory with your MongoDB URI and port:
+    ```env
+    MONGO_URI=<your-mongodb-uri>
+    PORT=5001
+    ```
 
+4. Start the backend server:
+    ```sh
+    npm run dev
+    ```
 
+### Frontend Setup
 
-#### Frontend
+1. Navigate to the frontend directory:
+    ```sh
+    cd ../frontend
+    ```
 
-    cd frontend
+2. Install the dependencies:
+    ```sh
+    npm install
+    ```
+
+3. Start the frontend development server:
+    ```sh
     npm start
+    ```
+
+4. Open your browser and navigate to `http://localhost:3000` to view the application.
+
+
+
 
