@@ -17,7 +17,7 @@ In today's competitive job market, having a well-organized and visually appealin
 
 ## Features
 
-- **Portfolio Management**: Create, edit, and delete digital portfolios with ease.
+- **Portfolio Management**: Create digital portfolios with ease.
 - **Project Showcase**: Display projects with detailed descriptions, images, and links.
 - **Responsive Design**: Enjoy a seamless experience across all devices.
 - **Dynamic Frontend**: Interact with an intuitive and dynamic user interface.
