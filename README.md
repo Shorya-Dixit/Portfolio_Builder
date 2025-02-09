@@ -20,7 +20,6 @@ In today's competitive job market, having a well-organized and visually appealin
 - **Portfolio Management**: Create, edit, and delete digital portfolios with ease.
 - **Project Showcase**: Display projects with detailed descriptions, images, and links.
 - **Responsive Design**: Enjoy a seamless experience across all devices.
-- **Secure Backend**: Manage data with secure API endpoints.
 - **Dynamic Frontend**: Interact with an intuitive and dynamic user interface.
 - **More Features**: Additional features will be added to enhance the user experience.
 
