@@ -10,7 +10,7 @@ Digital Portfolio Builder is a platform designed for developers to create, custo
 ---
 
 ## DEMO 
-![alt text](image-1.png)
+![alt text](image.png)
 
 
 ## Features
